@@ -55,7 +55,7 @@ li.list-group-item{
     position: relative;
     z-index: 0;
    }
-/* section banner*/
+/* acerca de */
 #foto_nombre{
     margin-top: 60px;
     padding: 20px;
@@ -128,7 +128,14 @@ ul{
 }
 .btn.btn-primary{
     margin-left: 20rem;
+
 }
+ .time{
+    margin-left: 20rem;
+    font-weight: bold;
+    font-size: 13px;
+ }  
+
 /*footer*/
 .footer{
     background-color: rgb(180, 201, 214);

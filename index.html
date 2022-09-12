@@ -11,12 +11,13 @@
       <script src="https://kit.fontawesome.com/6cc9fd4e89.js" crossorigin="anonymous"></script> <!--font awesome-->
    </head>
    <body id="index_body">
-      <header>
+      
+      <header class="banner"><!--banner-->
          <!-- navbar-->
          <nav class="navbar navbar-expand-lg bg-secundary">
             <div class="container-fluid">
                <a class="navbar-brand" href="#">
-               <img src="assets/img/APLogo-20-20.png" alt="" width="10%">
+               <img src="assets/img/APLogo-20-20.png" alt="logo_argentina_programa" width="10%">
                </a>
                <ul class="list-group list-group-horizontal">
                   <li class="list-group-item"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
@@ -27,36 +28,9 @@
                </ul>
             </div><!--cierra container-fluid-->
          </nav>
-         <!--modal-->
-         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
-                  </div>
-                  <div class="modal-body">
-                     <form>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                     </form>
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-primary">Iniciar Sesión</button>
-                  </div>
-               </div>
-            </div>
-         </div><!--cierra modal-->
       </header>
-      <!--banner-->
-      <section id="banner">
-         <div class="banner container-fluid"></div>
-      <!--fotoperfil-->
+   <section id="acerca_de">
+         <!--fotoperfil-->
          <div id="imagen_perfil" class="container-fluid">
             <div class="row" >
                <div class="col-xs-12 col-sm-2 col-md-3 col-lg-3">
@@ -68,9 +42,9 @@
                    <h3 id="dato">Sonia Elisabet Silva</h3>
                     <h5 id="titulo">Developer Full-Stack Jr</h5>
                   </div>
-                  <div class="col-xs-12 col-sm-2 col-md-7 col-lg-6 text-center" id="acerca_de">
+                  <div class="col-xs-12 col-sm-2 col-md-7 col-lg-6 text-center" >
                    <h2>Acerca de mí</h2>
-                   <p>Mi nombre es Sonia, voy adaptandome a los cambios estando en continua innovación. Me gustan afrontar los dasafíos dando siempre lo mejor de mí. </p>  
+                   <p>Mi nombre es Sonia, voy adaptandome a los cambios estando en continua innovación. Me gusta afrontar los desafíos dando siempre lo mejor de mí. </p>  
                </div>
             </div>
        </div><!--cierra container-->
@@ -82,7 +56,8 @@
             <div class="row mb-5">
                <div class="col-2 text-center">
                   <img src="https://www.bancomasventas.com.ar/wp-content/uploads/2020/04/LOGO-SMG-Life-1024x425.jpg" class="img-fluid w-50" alt="logo_smg_life">
-                  <p class="fecha">Julio 2013 - Diciembre 2020</p>
+                  <br>
+                  <time class="fecha">Julio 2013 - Diciembre 2020</time>
                </div>
                <div class="col-8">
                   <ul>
@@ -94,12 +69,13 @@
             <div class="row">
                <div class="col-2 text-center">
                   <img src="https://cdn.connectamericas.com/sites/default/files/styles/company_public_profile_picture/public/company/pictures/ClientingGroup_AR_1414526269.jpg?itok=gLdGzKkQ" class="img-fluid w-50" alt="logo_clienting_group" >
-                  <p class="fecha">Febrero 2010 - Junio 2013</p>
+                  <br>
+                  <time class="fecha">Febrero 2010 - Junio 2013</time>
                </div>
                <div class="col-8">
                   <ul>
                  <li><h4>Telemarketer</h4></li>
-                     <p>Realizaba venta de productos intangiles de manera telefónica seguros de vida, salud y hogar manejando varios sponsor.</p>
+                     <p>Realizaba venta de productos intangibles de manera telefónica seguros de vida, salud y hogar manejando varios sponsor.</p>
                   </ul>
                   </div>
             </div><!--cierra row-->
@@ -112,11 +88,12 @@
                <h2 class="text-center">Educación</h2>
                <div class="col-2 text-center">
                   <img src="assets/img/arg-programa.png" class="img-fluid w-50" alt="logo_argentina_programa">
-                  <p class="fecha">Junio 2022 - Actualidad</p>
+                  <br>
+                  <time class="fecha">Junio 2022 - Actualidad</time>
                </div>
                <div class="col-8">
                   <ul>
-                     <li><h4>Argentina Programa</li>
+                     <li><h4>Argentina Programa</h4></li>
                         <h5>Developer Full-Stack Jr</h5>
                      </ul>
                   </div>
@@ -124,7 +101,8 @@
             <div class="row">
                <div class="col-2 text-center">
                   <img src="assets/img/aapas.png" class="img-fluid w-30 h-50"alt="logo_aapas">
-                  <p class="fecha">Octubre 2013 - Abril 2014</p>
+                  <br>
+                  <time class="fecha">Octubre 2013 - Abril 2014</time>
                </div>
                <div class="col-8">
                   <ul>
@@ -136,7 +114,8 @@
             <div class="row">
                <div class="col-2 text-center">
                   <img src="#" class="img-fluid" alt="..">
-                  <p class="fecha">Marzo 1993 - Diciembre 1997</p>
+                  <br>
+                  <time class="fecha">Marzo 1993 - Diciembre 1997</time>
                </div>
                <div class="col-8">
                   <ul>
@@ -203,14 +182,17 @@
                <div class="col-xs-12 col-sm-2 col-md-7 col-lg-6">
                   <img src="https://assets.asana.biz/m/2729b34d99aa7f91/original/article-project-planning-project-design-2x.jpg" id="foto_proyecto" class="img-fluid">
                   <h4 class="text-center">Portfolio</h4>
+                  <time class="time">Julio 2022</time>
+                  
                   <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore itaque sequi est hic. Maxime aspernatur tempore dolorem placeat non dolor aperiam, unde quo neque. Iure ipsa ex aperiam perferendis voluptatem.</p>
-                <a href="#" class="btn btn-primary">Go</a>
+                <a href="https://github.com/SoElSi80/Proyectofinalfrontend/commit/e73af0cb9fcf85e35944431f80aee7122e0a9927#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051"  class="btn btn-primary" target="_blank">Go</a>
                </div>
                <div class="col-xs-12 col-sm-2 col-md-7 col-lg-6">
                <img src="https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2019/09/banner-siete-pasos-gestion-proyectos.jpg" id="foto_proyecto" class="img-fluid">
                <h4 class="text-center">Dashboard</h4>
+               <time class="time">Julio 2022</time>
                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore itaque sequi est hic. Maxime aspernatur tempore dolorem placeat non dolor aperiam, unde quo neque. Iure ipsa ex aperiam perferendis voluptatem.</p>
-                 <a href="#" class="btn btn-primary">Go</a>
+                 <a href="https://github.com/SoElSi80/Proyectofinalfrontend/blob/main/dashboard.html" class="btn btn-primary" target="_blank">Go</a>
                </div>
       </div><!--cierra row-->
          </div><!--cierra container-->
@@ -222,9 +204,34 @@
             <p> Sonia Elisabet Silva | © Argentina Programa 2022</p>
             <p>Buenos Aires, Argentina</p>
             </div>
-            
          </div>
       </footer>
+      <!--modal Login-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+               </div>
+               <div class="modal-body">
+                  <form>
+                     <div class="mb-3">
+                       <label for="exampleInputEmail1" class="form-label">Email</label>
+                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     </div>
+                      <div class="mb-3">
+                       <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                       <input type="password" class="form-control" id="exampleInputPassword1">
+                     </div>
+                  </form>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div><!--cierra modal-->
       <!--Bootstrap-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
    </body>
